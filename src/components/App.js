@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import Header from './Header';
 
 function App() {
