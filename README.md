@@ -1,13 +1,11 @@
 <a name="readme-top"></a>
 
-
 <div align="center">
   <br/>
 
   <h3><b>Space Travelers Hub  README</b></h3>
 
 </div>
-
 
 # 📗 Table of Contents
 
@@ -33,7 +31,8 @@
   - [📝 License ](#-license-)
 
 # 📖 [Bookstore ] <a name="about-project"></a>
-**[Bookstore ]** is  a website that display a list of space rockets and display its informations
+
+**[Bookstore ]** is a website that display a list of space rockets and display its informations
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,31 +45,23 @@
 
     <li><a href="#">JSX</a></li>
      <li><a href="#">Js</a></li>
+
   </ul>
 </details>
 
-
-
-
-
 ### Key Features <a name="key-features"></a>
 
-
 - **[Display a list of Rockets ]**
-- **[Dispaly a couple of missions for each rocket  ]**
+- **[Dispaly a couple of missions for each rocket ]**
 - **[Displaying the profile section ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
 [N/A]
 
-
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -88,7 +79,7 @@ To get a local copy up and running, follow these steps.
 
 Clone this repository to your desired folder:
 https://github.com/ridabensalem/Space-Travelers-Hub.git
- Example commands:
+Example commands:
 
 ```sh
   cd my-folder
@@ -100,21 +91,20 @@ https://github.com/ridabensalem/Space-Travelers-Hub.git
 Install this project with:
 
 ` cd my-project
-  - Run npm install after cloning the repo
+
+- Run npm install after cloning the repo
 
 ### Usage
 
 ### Usage
 
-- Run npm start for development. 
+- Run npm start for development.
 - Run npm run build for production
-
 
 ### Run tests
 
 To run tests, run the following command:
 ` npm run test`
-
 
 ### Deployment
 
@@ -130,18 +120,20 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/DevMichael11)
 - LinkedIn: [LinkedIn](linkedin.com/in/dev-mike-5a09ab167)
 
-👤 **Author2**
+👤 **Kelvin kaviku**
 
+- GitHub: [@brainskev](https://github.com/brainskev/)
+- Twitter: [@kelvin_ngotho](https://twitter.com/kevin_ngotho?s=09/)
+- LinkedIn: [kelvin](https://www.linkedin.com/in/kelvinkaviku/)
 
 👤 **Author3**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Full navigation of the page ]**
-- [ ] **[Improve the UI/UX design  ]**
+- [ ] **[Improve the UI/UX design ]**
 - [ ] **[Add more Features of searching the Rockets and missions ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -156,14 +148,13 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give it a start and share it with your friends. 
+If you like this project please give it a start and share it with your friends.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to appreciate[Microverse](https://www.microverse.org/) for providing the resources and the platform for us to be a Professional full-stack developer.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
