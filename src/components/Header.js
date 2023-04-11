@@ -7,7 +7,7 @@ function Header() {
     <div className="header">
       <nav>
         <div className="logo">
-          <img src={logo} alt="logo" width={70} />
+          <img src={logo} alt="logo" width={60} />
           <h1>Travel-Hub</h1>
         </div>
       </nav>
