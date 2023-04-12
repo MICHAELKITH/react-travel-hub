@@ -10,7 +10,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Bookstore \] ](#-bookstore--)
+- [📖 \[Travel Hub \] ](#-travel-hub--)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -30,9 +30,9 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 [Bookstore ] <a name="about-project"></a>
+# 📖 [Travel Hub ] <a name="about-project"></a>
 
-**[Bookstore ]** is a website that display a list of space rockets and display its informations
+**[Travel Hub ]** is a website that display a list of space rockets and display its informations
 
 ## 🛠 Built With <a name="built-with"></a>
 
