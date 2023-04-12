@@ -1,25 +1,48 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useSelector, useDispatch } from 'react-redux';
-import fetchDragon from './FetchAPI';
+import fetchDragon from './APIs/dragon';
+import { reserveDragon, cancelDragon } from '../slices/dragonSlice';
 
 function Dragon({
-  // eslint-disable-next-line react/prop-types
-  name, type, image,
+  id, name, type, image, reserved,
 }) {
-  return (
+  const dispatch = useDispatch();
 
+  const handleReserve = () => {
+    dispatch(reserveDragon({ id }));
+  };
+
+  const handleCancel = () => {
+    dispatch(cancelDragon({ id }));
+  };
+
+  return (
     <div>
       <h1>{name}</h1>
       <p>{type}</p>
-      <p>{image}</p>
+      <img src={image} alt={name} width="300" height="300" />
+      {reserved ? (
+        <button onClick={handleCancel} type="button">
+          Cancel booking
+        </button>
+      ) : (
+        <button onClick={handleReserve} type="button">
+          Reserve dragon
+        </button>
+      )}
     </div>
   );
 }
+
 Dragon.propTypes = {
+  id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  reserved: PropTypes.bool.isRequired,
 };
+
 function Dragons() {
   const dragonsArr = useSelector((state) => state.dragonReducer.dragonStore);
   const dispatch = useDispatch();
@@ -35,9 +58,9 @@ function Dragons() {
           id={dragon.id}
           name={dragon.name}
           type={dragon.type}
-          image={dragon.flickr_images}
+          image={dragon.flickr_images[0]}
+          reserved={dragon.reserved}
         />
-
       ))}
     </div>
   );

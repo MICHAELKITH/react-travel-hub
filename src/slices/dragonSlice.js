@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import fetchDragon from '../components/FetchAPI';
+import fetchDragon from '../components/APIs/dragon';
 
 const initialState = {
   dragonStore: [],
@@ -10,7 +10,18 @@ const initialState = {
 export const dragonSlice = createSlice({
   name: 'dragon',
   initialState,
-  reducers: {},
+  reducers: {
+    reserveDragon: (state, action) => {
+      const { id } = action.payload;
+      state.dragonStore = state.dragonStore.map((dragon) => (
+        dragon.id === id ? { ...dragon, reserved: true } : dragon));
+    },
+    cancelDragon: (state, action) => {
+      const { id } = action.payload;
+      state.dragonStore = state.dragonStore.map((dragon) => (
+        dragon.id === id ? { ...dragon, reserved: false } : dragon));
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(fetchDragon.pending, (state) => {
@@ -26,5 +37,7 @@ export const dragonSlice = createSlice({
       });
   },
 });
+
+export const { reserveDragon, cancelDragon } = dragonSlice.actions;
 
 export default dragonSlice.reducer;
