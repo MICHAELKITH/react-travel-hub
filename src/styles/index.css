@@ -1,5 +1,10 @@
 @import 'header.css';
-
+@import 'header.css';
+@import 'table.css';
+@import 'profile.css';
+@import 'rocke.css';
+@import 'rocket.css';
+@import 'dragon.css';
 body {
   margin: 0;
   font-family:
