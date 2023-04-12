@@ -12,10 +12,10 @@ function App() {
         <Routes>
           <Route element={<Header />}>
             <Route path="/" element={<Rockets />} />
-            <Route path="/missions" element={<Missions />} />
+            <Route path="/mission" element={<Missions />} />
             |
-            <Route path="/myProfile" element={<Profile />} />
-            <Route path="/dragons" element={<Dragons />} />
+            <Route path="/missionProfile" element={<Profile />} />
+            <Route path="/dragon" element={<Dragons />} />
           </Route>
         </Routes>
       </BrowserRouter>
