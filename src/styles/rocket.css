@@ -1,0 +1,52 @@
+/* ARTICLE STYLES */
+.article {
+  margin: 2% 0;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 20px;
+}
+
+/* IMAGE STYLES */
+.img {
+  width: 25%;
+}
+
+/* TITLE STYLES */
+.title {
+  margin: 0;
+}
+
+/* SPAN STYLES */
+.span {
+  background-color: rgb(27, 158, 191);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+/* BUTTON STYLES */
+.reserve,
+.unreserve {
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 1.5% 3%;
+  cursor: pointer;
+}
+
+.reserve {
+  background-color: rgb(30, 135, 255);
+  color: #fff;
+}
+
+.unreserve {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid gray;
+}
+
+/* DETAILS STYLES */
+.rocketDetails {
+  line-height: 1.5;
+}
