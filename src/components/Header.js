@@ -11,9 +11,9 @@ function Header() {
           <h1>Travel-Hub</h1>
           <div className="routeLinks">
             <NavLink to="/">Rockets</NavLink>
-            <NavLink to="/missions">Missions</NavLink>
-            <NavLink to="/dragons">Dragons</NavLink>
-            <NavLink to="/myProfile">My Profile</NavLink>
+            <NavLink to="/mission">Missions</NavLink>
+            <NavLink to="/dragon">Dragons</NavLink>
+            <NavLink to="/missionProfile">My Profile</NavLink>
           </div>
         </div>
       </nav>
