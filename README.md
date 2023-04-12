@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Space Travelers Hub  README</b></h3>
+  <h3><b> Travel Hub</b></h3>
 
 </div>
 
@@ -78,12 +78,12 @@ To get a local copy up and running, follow these steps.
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/ridabensalem/Space-Travelers-Hub.git
+https://github.com/MICHAELKITH/react-travel-hub.git
 Example commands:
 
 ```sh
-  cd my-folder
-  https://github.com/ridabensalem/Space-Travelers-Hub.git
+  cd react-travel-hub
+ git@github.com:MICHAELKITH/react-travel-hub.git 
 ```
 
 ### Install
