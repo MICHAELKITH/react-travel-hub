@@ -128,6 +128,10 @@ You can deploy this project using:
 
 👤 **Author3**
 
+- GitHub: [@HenryOmondi](https://github.com/Odongo006)
+- Twitter: [@HenryOdongo007](https://twitter.com/HenryOdongo007/)
+- LinkedIn: [@HenryOmondi](linkedin.com/in/henry-odongo-91b830182/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
