@@ -1,0 +1,73 @@
+/* TABLE STYLES */
+table {
+  margin: 0 20px;
+  border: 1px solid #dee2e6;
+  border-collapse: collapse;
+}
+
+.header_table {
+  border: 1px solid #dee2e6;
+}
+
+.missions_table {
+  border-collapse: collapse;
+}
+
+/* CELL STYLES */
+.mission_name,
+.header_mission {
+  width: 150px;
+}
+
+.header_description,
+.mission_description {
+  width: 150vh;
+}
+
+.header_status,
+.mission_status {
+  width: 10vh;
+  padding: 10px;
+}
+
+.header_action,
+.mission_action {
+  width: 14vh;
+}
+
+/* BUTTON STYLES */
+.member_button {
+  background-color: #2980b9;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  margin-left: 10px;
+  padding: 2px;
+}
+
+.not_member_button {
+  background-color: gray;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.leave_button {
+  background-color: #fff;
+  border: 1px solid #e74c3c;
+  border-radius: 4px;
+  color: #e74c3c;
+  font-weight: bold;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.join_button {
+  background-color: #fff;
+  border: 2px solid gray;
+  border-radius: 4px;
+  color: gray;
+  font-weight: bold;
+  height: 30px;
+  margin-left: 20px;
+}

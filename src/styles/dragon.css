@@ -1,0 +1,13 @@
+/* CONTAINER STYLES */
+.dragons_container {
+  padding: 0 20px;
+}
+
+/* BUTTON STYLES */
+.dragons_container button {
+  background-color: #0984e3;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px;
+}

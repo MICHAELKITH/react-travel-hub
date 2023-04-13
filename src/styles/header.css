@@ -1,10 +1,26 @@
+/* LOGO STYLES */
 .logo {
   display: flex;
   flex-direction: row;
-  width: 20%;
   padding: 20px 20px;
 }
 
 .logo h1 {
   padding: 0 20px;
+}
+
+/* ROUTE LINKS STYLES */
+.routeLinks {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 1vh;
+  right: 20px;
+  width: 50vh;
+}
+
+/* LINK STYLES */
+a {
+  color: #0984e3;
+  text-decoration: none;
 }
