@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-travel-hub/static/css/main.9d5ce76e.css",
+    "main.js": "/react-travel-hub/static/js/main.dd18a77d.js",
+    "static/media/logo.png": "/react-travel-hub/static/media/logo.3f6fb2742f28651730c0.png",
+    "index.html": "/react-travel-hub/index.html",
+    "main.9d5ce76e.css.map": "/react-travel-hub/static/css/main.9d5ce76e.css.map",
+    "main.dd18a77d.js.map": "/react-travel-hub/static/js/main.dd18a77d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d5ce76e.css",
+    "static/js/main.dd18a77d.js"
+  ]
+}
