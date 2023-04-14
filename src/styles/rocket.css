@@ -1,52 +1,69 @@
-/* ARTICLE STYLES */
 .article {
-  margin: 2% 0;
   display: flex;
   align-items: flex-start;
-  column-gap: 20px;
+  column-gap: 40px;
+  margin-bottom: 40px;
 }
 
-/* IMAGE STYLES */
 .img {
-  width: 25%;
+  width: 300px;
+  height: 250px;
 }
 
-/* TITLE STYLES */
 .title {
   margin: 0;
 }
 
-/* SPAN STYLES */
 .span {
-  background-color: rgb(27, 158, 191);
+  background: rgb(3, 166, 76);
   color: #fff;
-  padding: 4px 12px;
-  border-radius: 10px;
+  padding: 4px 9px;
+  border-radius: 4px;
   margin-right: 5px;
 }
 
-/* BUTTON STYLES */
 .reserve,
 .unreserve {
-  font-size: 16px;
+  background-color: rgb(24, 145, 44);
+  color: #fff;
   border: none;
   border-radius: 5px;
-  padding: 1.5% 3%;
+  padding: 10px;
   cursor: pointer;
 }
 
-.reserve {
-  background-color: rgb(30, 135, 255);
-  color: #fff;
-}
-
 .unreserve {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid gray;
+  background: #e60000;
+  color: white;
+  font-weight: bold;
 }
 
-/* DETAILS STYLES */
 .rocketDetails {
   line-height: 1.5;
+  width: 90%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.rocketDiv {
+  width: 90%;
+  background-color: red;
+}
+
+p {
+  width: 70%;
+}
+
+.rocket-img {
+  width: 50px;
+  height: 50px;
+}
+
+.rocket {
+  border: 1px solid #dee2e6;
+  width: 50vh;
+  height: 40vh;
 }
