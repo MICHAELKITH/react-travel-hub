@@ -1,0 +1,33 @@
+.Joined_mission_container {
+  border: 1px solid #dee2e6;
+  width: 50vh;
+  height: 40vh;
+}
+
+.my_missions {
+  padding: 0 40px;
+}
+
+.list_mission {
+  padding: 20px 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+
+.rocketReserved {
+  padding: 20px 10px;
+  border-bottom: 1px solid #dee2e6;
+  width: 95%;
+}
+
+.rocket {
+  border: 1px solid #dee2e6;
+  width: 50vh;
+  height: 40vh;
+}
