@@ -1,11 +1,5 @@
-/* TABLE STYLES */
-table {
-  margin: 0 20px;
-  border: 1px solid #dee2e6;
-  border-collapse: collapse;
-}
-
 .header_table {
+  border-collapse: collapse;
   border: 1px solid #dee2e6;
 }
 
@@ -13,8 +7,10 @@ table {
   border-collapse: collapse;
 }
 
-/* CELL STYLES */
-.mission_name,
+.mission_name {
+  width: 150px;
+}
+
 .header_mission {
   width: 150px;
 }
@@ -27,7 +23,12 @@ table {
 .header_status,
 .mission_status {
   width: 10vh;
-  padding: 10px;
+  padding: 10px 10px;
+}
+
+table {
+  margin: 0 20px;
+  border: 1px solid #dee2e6;
 }
 
 .header_action,
@@ -35,21 +36,21 @@ table {
   width: 14vh;
 }
 
-/* BUTTON STYLES */
+/* button action styling  */
 .member_button {
   background-color: #2980b9;
   border: none;
   border-radius: 25px;
   color: #fff;
   margin-left: 10px;
-  padding: 2px;
+  padding: 2px 1px;
 }
 
 .not_member_button {
   background-color: gray;
   border: none;
-  border-radius: 25px;
   color: #fff;
+  border-radius: 25px;
 }
 
 .leave_button {
@@ -58,16 +59,16 @@ table {
   border-radius: 4px;
   color: #e74c3c;
   font-weight: bold;
-  height: 30px;
   margin-left: 20px;
+  height: 30px;
 }
 
 .join_button {
   background-color: #fff;
   border: 2px solid gray;
-  border-radius: 4px;
-  color: gray;
-  font-weight: bold;
   height: 30px;
+  border-radius: 4px;
   margin-left: 20px;
+  font-weight: bold;
+  color: gray;
 }
