@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-evenly;
   position: absolute;
-  top: 1vh;
+  top: 5vh;
   right: 20px;
   width: 50vh;
 }
