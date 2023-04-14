@@ -17,8 +17,13 @@
   padding: 0 40px;
 }
 
-.dragons_list {
+.list-dragon {
+  padding: 20px 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.dragon {
   border: 1px solid #dee2e6;
+  width: 50vh;
   height: 40vh;
-  width: 46vh;
 }

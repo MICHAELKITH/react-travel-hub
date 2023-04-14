@@ -21,7 +21,13 @@
 }
 
 .rocketReserved {
-  width: 100%;
-  padding: 5px;
-  border: 1px solid gray;
+  padding: 20px 10px;
+  border-bottom: 1px solid #dee2e6;
+  width: 95%;
+}
+
+.rocket {
+  border: 1px solid #dee2e6;
+  width: 50vh;
+  height: 40vh;
 }

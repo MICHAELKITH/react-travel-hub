@@ -39,10 +39,10 @@ function ReserveDragons() {
   const filteredDragons = dragons.filter((dragon) => dragon.reserved);
 
   return (
-    <div>
+    <div className="dragon">
 
       {filteredDragons.map((dragon) => (
-        <div key={dragon.id}>{dragon.name}</div>
+        <div className="list-dragon" key={dragon.id}>{dragon.name}</div>
       ))}
     </div>
   );

@@ -24,7 +24,7 @@
 
 .reserve,
 .unreserve {
-  background-color: rgb(24, 145, 44);
+  background-color: rgb(28, 15, 206);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -33,7 +33,7 @@
 }
 
 .unreserve {
-  background: #e60000;
+  background: #fa0d0d;
   color: white;
   font-weight: bold;
 }
@@ -50,7 +50,7 @@
 
 .rocketDiv {
   width: 90%;
-  background-color: red;
+  background-color: rgb(25, 0, 255);
 }
 
 p {

@@ -13,6 +13,8 @@ function Header() {
             <NavLink to="/">Rockets</NavLink>
             <NavLink to="/mission">Missions</NavLink>
             <NavLink to="/dragon">Dragons</NavLink>
+            {' '}
+            |
             <NavLink to="/missionProfile">My Profile</NavLink>
           </div>
         </div>
