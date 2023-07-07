@@ -65,7 +65,7 @@
     "react-test-renderer": "^18.2.0",
     "redux-logger": "^3.0.6",
     "redux-mock-store": "^1.5.4",
-    "stylelint": "^13.13.1",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
